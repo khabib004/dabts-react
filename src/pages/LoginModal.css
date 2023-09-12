@@ -1,0 +1,27 @@
+.login-body {
+  min-height: 100vh;
+  background-image: url(../../public/bacraund.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.login-body form {
+  width: 400px;
+  height: 350px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+}
+
+form h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+label {
+  padding-top: 15px;
+}
